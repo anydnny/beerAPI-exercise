@@ -1,0 +1,75 @@
+@import "global-styles";
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding-top: 1rem;
+
+  h1 {
+    font: $font-family-big;
+    font-size: 3rem;
+    color: rgb(61, 41, 249);
+    margin: 0;
+  }
+
+  .header__form {
+    position: fixed;
+    top: 2rem;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+
+    input[type="text"] {
+      width: 100%;
+      height: 3rem;
+      margin-bottom: 0.5rem;
+      font: $font-family-big;
+      font-style: italic;
+      padding: 0.5rem;
+    }
+    input[type="submit"] {
+      width: 100%;
+      font: $font-family-lil;
+      color: black;
+      background-color: white;
+      border-radius: 1rem;
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+      border: 0.1rem solid black;
+    }
+    input[type="submit"]:hover {
+      background-color: rgb(61, 41, 249);
+      color: white;
+    }
+    button {
+      width: 100%;
+      font: $font-family-lil;
+      color: black;
+      background-color: white;
+      border-radius: 1rem;
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+      border: 0.1rem solid black;
+    }
+    button:hover {
+      background-color: rgb(243, 62, 11);
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 715px){
+  .header{
+    .header__form {
+      width: 30%;
+      left: 60%;
+    }
+  }
+  
+}
