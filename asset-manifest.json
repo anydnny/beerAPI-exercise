@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/beerAPI-exercise/static/css/main.899d36a0.css",
+    "main.js": "/beerAPI-exercise/static/js/main.bcf653ec.js",
+    "index.html": "/beerAPI-exercise/index.html",
+    "main.899d36a0.css.map": "/beerAPI-exercise/static/css/main.899d36a0.css.map",
+    "main.bcf653ec.js.map": "/beerAPI-exercise/static/js/main.bcf653ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.899d36a0.css",
+    "static/js/main.bcf653ec.js"
+  ]
+}
